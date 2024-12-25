@@ -1,6 +1,8 @@
 import { useSearchParams } from "react-router-dom"
 import Chat from "../../components/global/chat" 
 
+// Webrtc here (p2p)
+
 export default function Server() {
 
     const [params, SetParams] = useSearchParams()
